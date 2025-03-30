@@ -1,0 +1,588 @@
+Using pre-set license
+Built from '2021.3/china_unity/release' branch; Version is '2021.3.4f1c1 (64682593795a) revision 6580261'; Using compiler version '192829333'; Build Type 'Release'
+OS: 'Windows 11  (10.0.26100) 64bit Professional' Language: 'zh' Physical Memory: 32581 MB
+BatchMode: 1, IsHumanControllingUs: 0, StartBugReporterOnCrash: 0, Is64bit: 1, IsPro: 1
+
+COMMAND LINE ARGUMENTS:
+C:\Program Files\Unity\Hub\Editor\2021.3.4f1c1\Editor\Unity.exe
+-adb2
+-batchMode
+-noUpm
+-name
+AssetImportWorker5
+-projectPath
+B:/Learn/Unity/AITowerGame
+-logFile
+Logs/AssetImportWorker5.log
+-srvPort
+49618
+Successfully changed project path to: B:/Learn/Unity/AITowerGame
+B:/Learn/Unity/AITowerGame
+[UnityMemory] Configuration Parameters - Can be set up in boot.config
+    "memorysetup-bucket-allocator-granularity=16"
+    "memorysetup-bucket-allocator-bucket-count=8"
+    "memorysetup-bucket-allocator-block-size=33554432"
+    "memorysetup-bucket-allocator-block-count=8"
+    "memorysetup-main-allocator-block-size=16777216"
+    "memorysetup-thread-allocator-block-size=16777216"
+    "memorysetup-gfx-main-allocator-block-size=16777216"
+    "memorysetup-gfx-thread-allocator-block-size=16777216"
+    "memorysetup-cache-allocator-block-size=4194304"
+    "memorysetup-typetree-allocator-block-size=2097152"
+    "memorysetup-profiler-bucket-allocator-granularity=16"
+    "memorysetup-profiler-bucket-allocator-bucket-count=8"
+    "memorysetup-profiler-bucket-allocator-block-size=33554432"
+    "memorysetup-profiler-bucket-allocator-block-count=8"
+    "memorysetup-profiler-allocator-block-size=16777216"
+    "memorysetup-profiler-editor-allocator-block-size=1048576"
+    "memorysetup-temp-allocator-size-main=16777216"
+    "memorysetup-job-temp-allocator-block-size=2097152"
+    "memorysetup-job-temp-allocator-block-size-background=1048576"
+    "memorysetup-job-temp-allocator-reduction-small-platforms=262144"
+    "memorysetup-temp-allocator-size-background-worker=32768"
+    "memorysetup-temp-allocator-size-job-worker=262144"
+    "memorysetup-temp-allocator-size-preload-manager=33554432"
+    "memorysetup-temp-allocator-size-nav-mesh-worker=65536"
+    "memorysetup-temp-allocator-size-audio-worker=65536"
+    "memorysetup-temp-allocator-size-cloud-worker=32768"
+    "memorysetup-temp-allocator-size-gi-baking-worker=262144"
+    "memorysetup-temp-allocator-size-gfx=262144"
+AS: AutoStreaming module initializing.
+Refreshing native plugins compatible for Editor in 133.07 ms, found 4 plugins.
+Preloading 0 native plugins for Editor in 0.00 ms.
+Initialize engine version: 2021.3.4f1c1 (64682593795a)
+[Subsystems] Discovering subsystems at path C:/Program Files/Unity/Hub/Editor/2021.3.4f1c1/Editor/Data/Resources/UnitySubsystems
+[Subsystems] Discovering subsystems at path B:/Learn/Unity/AITowerGame/Assets
+GfxDevice: creating device client; threaded=0; jobified=0
+Direct3D:
+    Version:  Direct3D 11.0 [level 11.1]
+    Renderer: NVIDIA GeForce RTX 3060 (ID=0x2487)
+    Vendor:   NVIDIA
+    VRAM:     12110 MB
+    Driver:   32.0.15.6094
+Initialize mono
+Mono path[0] = 'C:/Program Files/Unity/Hub/Editor/2021.3.4f1c1/Editor/Data/Managed'
+Mono path[1] = 'C:/Program Files/Unity/Hub/Editor/2021.3.4f1c1/Editor/Data/MonoBleedingEdge/lib/mono/unityjit-win32'
+Mono config path = 'C:/Program Files/Unity/Hub/Editor/2021.3.4f1c1/Editor/Data/MonoBleedingEdge/etc'
+Using monoOptions --debugger-agent=transport=dt_socket,embedding=1,server=y,suspend=n,address=127.0.0.1:56520
+Begin MonoManager ReloadAssembly
+Registering precompiled unity dll's ...
+Register platform support module: C:/Program Files/Unity/Hub/Editor/2021.3.4f1c1/Editor/Data/PlaybackEngines/WebGLSupport/UnityEditor.WebGL.Extensions.dll
+Register platform support module: C:/Program Files/Unity/Hub/Editor/2021.3.4f1c1/Editor/Data/PlaybackEngines/AndroidPlayer/UnityEditor.Android.Extensions.dll
+Register platform support module: C:/Program Files/Unity/Hub/Editor/2021.3.4f1c1/Editor/Data/PlaybackEngines/WindowsStandaloneSupport/UnityEditor.WindowsStandalone.Extensions.dll
+Registered in 0.062308 seconds.
+Native extension for WindowsStandalone target not found
+Native extension for Android target not found
+Native extension for WebGL target not found
+Refreshing native plugins compatible for Editor in 90.81 ms, found 4 plugins.
+Preloading 0 native plugins for Editor in 0.00 ms.
+Mono: successfully reloaded assembly
+- Completed reload, in  1.180 seconds
+Domain Reload Profiling:
+	ReloadAssembly (1180ms)
+		BeginReloadAssembly (305ms)
+			ExecutionOrderSort (0ms)
+			DisableScriptedObjects (0ms)
+			BackupInstance (0ms)
+			ReleaseScriptingObjects (0ms)
+			CreateAndSetChildDomain (1ms)
+		EndReloadAssembly (538ms)
+			LoadAssemblies (228ms)
+			RebuildTransferFunctionScriptingTraits (0ms)
+			SetupTypeCache (99ms)
+			ReleaseScriptCaches (0ms)
+			RebuildScriptCaches (24ms)
+			SetupLoadedEditorAssemblies (285ms)
+				LogAssemblyErrors (0ms)
+				InitializePlatformSupportModulesInManaged (73ms)
+				SetLoadedEditorAssemblies (0ms)
+				RefreshPlugins (91ms)
+				BeforeProcessingInitializeOnLoad (1ms)
+				ProcessInitializeOnLoadAttributes (79ms)
+				ProcessInitializeOnLoadMethodAttributes (41ms)
+				AfterProcessingInitializeOnLoad (0ms)
+				EditorAssembliesLoaded (0ms)
+			ExecutionOrderSort2 (0ms)
+			AwakeInstancesAfterBackupRestoration (0ms)
+Platform modules already initialized, skipping
+Registering precompiled user dll's ...
+Registered in 0.102304 seconds.
+Begin MonoManager ReloadAssembly
+Symbol file LoadedFromMemory doesn't match image B:\Learn\Unity\AITowerGame\Library\PackageCache\com.unity.visualscripting@1.7.8\Editor\VisualScripting.Core\Dependencies\YamlDotNet\Unity.VisualScripting.YamlDotNet.dll
+Symbol file LoadedFromMemory doesn't match image B:\Learn\Unity\AITowerGame\Library\PackageCache\com.unity.visualscripting@1.7.8\Editor\VisualScripting.Core\Dependencies\DotNetZip\Unity.VisualScripting.IonicZip.dll
+Native extension for WindowsStandalone target not found
+Native extension for Android target not found
+Native extension for WebGL target not found
+Refreshing native plugins compatible for Editor in 82.27 ms, found 4 plugins.
+Preloading 0 native plugins for Editor in 0.00 ms.
+Mono: successfully reloaded assembly
+- Completed reload, in  2.326 seconds
+Domain Reload Profiling:
+	ReloadAssembly (2327ms)
+		BeginReloadAssembly (344ms)
+			ExecutionOrderSort (0ms)
+			DisableScriptedObjects (4ms)
+			BackupInstance (0ms)
+			ReleaseScriptingObjects (0ms)
+			CreateAndSetChildDomain (127ms)
+		EndReloadAssembly (1488ms)
+			LoadAssemblies (342ms)
+			RebuildTransferFunctionScriptingTraits (0ms)
+			SetupTypeCache (201ms)
+			ReleaseScriptCaches (0ms)
+			RebuildScriptCaches (39ms)
+			SetupLoadedEditorAssemblies (861ms)
+				LogAssemblyErrors (0ms)
+				InitializePlatformSupportModulesInManaged (26ms)
+				SetLoadedEditorAssemblies (0ms)
+				RefreshPlugins (82ms)
+				BeforeProcessingInitializeOnLoad (153ms)
+				ProcessInitializeOnLoadAttributes (300ms)
+				ProcessInitializeOnLoadMethodAttributes (51ms)
+				AfterProcessingInitializeOnLoad (248ms)
+				EditorAssembliesLoaded (0ms)
+			ExecutionOrderSort2 (0ms)
+			AwakeInstancesAfterBackupRestoration (9ms)
+Platform modules already initialized, skipping
+========================================================================
+Worker process is ready to serve import requests
+Launched and connected shader compiler UnityShaderCompiler.exe after 0.15 seconds
+Refreshing native plugins compatible for Editor in 0.74 ms, found 4 plugins.
+Preloading 0 native plugins for Editor in 0.00 ms.
+Unloading 4085 Unused Serialized files (Serialized files now loaded: 0)
+Unloading 38 unused Assets / (55.2 KB). Loaded Objects now: 4545.
+Memory consumption went from 152.2 MB to 152.2 MB.
+Total: 3.062900 ms (FindLiveObjects: 0.265500 ms CreateObjectMapping: 0.177900 ms MarkObjects: 2.515600 ms  DeleteObjects: 0.102500 ms)
+
+AssetImportParameters requested are different than current active one (requested -> active):
+  custom:video-decoder-ogg-theora: a1e56fd34408186e4bbccfd4996cb3dc -> 
+  custom:container-muxer-webm: aa71ff27fc2769a1b78a27578f13a17b -> 
+  custom:container-demuxer-webm: 4f35f7cbe854078d1ac9338744f61a02 -> 
+  custom:video-encoder-webm-vp8: eb34c28f22e8b96e1ab97ce403110664 -> 
+  custom:audio-encoder-webm-vorbis: bf7c407c2cedff20999df2af8eb42d56 -> 
+  custom:framework-win-MediaFoundation: 216162199b28c13a410421893ffa2e32 -> 
+  custom:container-demuxer-ogg: 62fdf1f143b41e24485cea50d1cbac27 -> 
+  custom:video-decoder-webm-vp8: 9c59270c3fd7afecdb556c50c9e8de78 -> 
+  custom:audio-decoder-ogg-vorbis: bf7c407c2cedff20999df2af8eb42d56 -> 
+========================================================================
+Received Import Request.
+  Time since last request: 597338.344697 seconds.
+  path: Assets/Resources/Sprites/Towers/Tower Bomber/Tower Bomber Lvl02 Shoot/Bomber Tower-Tower Bomb Lv02_Shoot_13.png
+  artifactKey: Guid(5ca7649777161d349bce96dcf7b80f90) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Resources/Sprites/Towers/Tower Bomber/Tower Bomber Lvl02 Shoot/Bomber Tower-Tower Bomb Lv02_Shoot_13.png using Guid(5ca7649777161d349bce96dcf7b80f90) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '314a8f44ab36c6fd40739339ceed96db') in 0.188663 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000025 seconds.
+  path: Assets/Resources/Sprites/Zombies/Zombies02/Front view/zombies02-Front view walk_17.png
+  artifactKey: Guid(9f30a0463ab918248883e3b9456e15fc) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Resources/Sprites/Zombies/Zombies02/Front view/zombies02-Front view walk_17.png using Guid(9f30a0463ab918248883e3b9456e15fc) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '5c1baa06f7b8405e9536225a18dee982') in 0.040227 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000034 seconds.
+  path: Assets/Resources/Sprites/Towers/Tower Bomber/Tower Bomber Lvl03 Shoot/Bomber Tower-Tower Bomb Lv03_Shoot_08.png
+  artifactKey: Guid(c76b61283bd1567489fa285f38737e72) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Resources/Sprites/Towers/Tower Bomber/Tower Bomber Lvl03 Shoot/Bomber Tower-Tower Bomb Lv03_Shoot_08.png using Guid(c76b61283bd1567489fa285f38737e72) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '0fff0b374b395d2bab58c6a59746a326') in 0.037162 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000036 seconds.
+  path: Assets/Resources/Sprites/Zombies/Zombies03/Side view/zombies03-side view walk_05.png
+  artifactKey: Guid(882eb6543c372084eaad99b549a0506f) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Resources/Sprites/Zombies/Zombies03/Side view/zombies03-side view walk_05.png using Guid(882eb6543c372084eaad99b549a0506f) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '14029b245801e794a8d5809cb4cd87f9') in 0.039166 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000031 seconds.
+  path: Assets/Resources/Sprites/Towers/Tower Bomber/Tower Bomber Lvl05 Shoot/Bomber Tower-Tower Bomb Lv05_Shoot_07.png
+  artifactKey: Guid(8e6ec5807437fbb41bf5c099bd5a2b9b) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Resources/Sprites/Towers/Tower Bomber/Tower Bomber Lvl05 Shoot/Bomber Tower-Tower Bomb Lv05_Shoot_07.png using Guid(8e6ec5807437fbb41bf5c099bd5a2b9b) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '55038ef0c436a986acc18d831df59d5a') in 0.053907 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000022 seconds.
+  path: Assets/Resources/Sprites/Towers/Tower Bomber/Tower Bomber Lvl04 Idle/Bomber Tower-Tower Bomb Lv04_Idle_06.png
+  artifactKey: Guid(ea079256d645b4f4893fb360061c01b2) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Resources/Sprites/Towers/Tower Bomber/Tower Bomber Lvl04 Idle/Bomber Tower-Tower Bomb Lv04_Idle_06.png using Guid(ea079256d645b4f4893fb360061c01b2) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '2658e9571db8f76c88a5d4e42817f8cf') in 0.039088 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000029 seconds.
+  path: Assets/Resources/Sprites/Zombies/Zombies05/Side view/zombies05-side view walk_05.png
+  artifactKey: Guid(19a11926fd338bf4da62886ff9a75b33) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Resources/Sprites/Zombies/Zombies05/Side view/zombies05-side view walk_05.png using Guid(19a11926fd338bf4da62886ff9a75b33) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'c3a8a1a59fa615e9ec7cb29f4d1d8f41') in 0.052657 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000055 seconds.
+  path: Assets/Resources/Sprites/Zombies/Zombies05/Side view/zombies05-side view walk_09.png
+  artifactKey: Guid(4262576396f01b5459b48157c0db51fd) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Resources/Sprites/Zombies/Zombies05/Side view/zombies05-side view walk_09.png using Guid(4262576396f01b5459b48157c0db51fd) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'd1a7562dbd0b755d65609a142b37b470') in 0.039041 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000038 seconds.
+  path: Assets/Resources/Sprites/Towers/Tower Sniper/ShootTop02/Sniper Tower-Shoot Top02_00.png
+  artifactKey: Guid(21dae1a76e8745e46b89634f3202f663) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Resources/Sprites/Towers/Tower Sniper/ShootTop02/Sniper Tower-Shoot Top02_00.png using Guid(21dae1a76e8745e46b89634f3202f663) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '18bf6729b6c1f657cd1c6d5c06a539e5') in 0.053260 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000040 seconds.
+  path: Assets/Resources/Sprites/Zombies/Zombies05/Back view/zombies05-Back view walk_17.png
+  artifactKey: Guid(95ff35ccf07025d4aaa1563dfe810181) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Resources/Sprites/Zombies/Zombies05/Back view/zombies05-Back view walk_17.png using Guid(95ff35ccf07025d4aaa1563dfe810181) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '5481e9b939add863b35a0c2c8091eee0') in 0.036144 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000030 seconds.
+  path: Assets/Resources/Sprites/Towers/Tower Bomber/Tower Bomber Lvl05 Idle/Bomber Tower-Tower Bomb Lv05_Idle_05.png
+  artifactKey: Guid(737517c4f94057e4d9d4f5296c94e24a) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Resources/Sprites/Towers/Tower Bomber/Tower Bomber Lvl05 Idle/Bomber Tower-Tower Bomb Lv05_Idle_05.png using Guid(737517c4f94057e4d9d4f5296c94e24a) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '9820caaac7fd209ef643ba8897eb562e') in 0.048040 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000028 seconds.
+  path: Assets/Resources/Sprites/Towers/Tower Bomber/Tower Bomber Lvl03 Shoot/Bomber Tower-Tower Bomb Lv03_Shoot_03.png
+  artifactKey: Guid(c1b9fa5d47346d24e93421f82d616aae) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Resources/Sprites/Towers/Tower Bomber/Tower Bomber Lvl03 Shoot/Bomber Tower-Tower Bomb Lv03_Shoot_03.png using Guid(c1b9fa5d47346d24e93421f82d616aae) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '9db89a0a8692d14ef2348a1a61ac38af') in 0.044879 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000046 seconds.
+  path: Assets/Resources/Sprites/Zombies/Zombies02/Side view/zombies02-side view walk_08.png
+  artifactKey: Guid(ed1571fd049ef2e4383934f1c1b18408) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Resources/Sprites/Zombies/Zombies02/Side view/zombies02-side view walk_08.png using Guid(ed1571fd049ef2e4383934f1c1b18408) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '9e29e0ce39ea52dea8a668311db41914') in 0.050453 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000032 seconds.
+  path: Assets/Resources/Sprites/Zombies/Zombies03/Side view/zombies03-side view walk_11.png
+  artifactKey: Guid(2a3c6390ebe8b4d4f8684b3f36e650ea) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Resources/Sprites/Zombies/Zombies03/Side view/zombies03-side view walk_11.png using Guid(2a3c6390ebe8b4d4f8684b3f36e650ea) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '99cef1b4fd8ebfdb3e4b490490ecf048') in 0.038448 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000031 seconds.
+  path: Assets/Resources/Sprites/Towers/Tower Electric/Tower Electric Lv04/Electric Tower-Tower Electric Lv04_09.png
+  artifactKey: Guid(90669c04228a4a54b9af7b163e9fed4b) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Resources/Sprites/Towers/Tower Electric/Tower Electric Lv04/Electric Tower-Tower Electric Lv04_09.png using Guid(90669c04228a4a54b9af7b163e9fed4b) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '1564a894c94de03c7b4d48919d1579b9') in 0.056445 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000030 seconds.
+  path: Assets/Resources/Sprites/Zombies/Zombies02/Side view/zombies02-side view walk_07.png
+  artifactKey: Guid(080258ec05307534fb1617cdecb8fe7c) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Resources/Sprites/Zombies/Zombies02/Side view/zombies02-side view walk_07.png using Guid(080258ec05307534fb1617cdecb8fe7c) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'd84517d8a455465685df00ba1eaaa865') in 0.043200 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000039 seconds.
+  path: Assets/Resources/Sprites/Zombies/Zombies04/Side view/zombies04-side view walk_16.png
+  artifactKey: Guid(b1db4f78a692a4448b5f57569eac5cad) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Resources/Sprites/Zombies/Zombies04/Side view/zombies04-side view walk_16.png using Guid(b1db4f78a692a4448b5f57569eac5cad) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '7e5285159ce9e70a23508c8e9d012438') in 0.048309 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000035 seconds.
+  path: Assets/Resources/Sprites/Zombies/Zombies05/Back view/zombies05-Back view walk_16.png
+  artifactKey: Guid(8f0b73d7485177142975e7e205762126) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Resources/Sprites/Zombies/Zombies05/Back view/zombies05-Back view walk_16.png using Guid(8f0b73d7485177142975e7e205762126) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'f3904c2d7d69c02782fba57e71ba21f3') in 0.039954 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000040 seconds.
+  path: Assets/Resources/Sprites/Zombies/Zombies02/Side view/zombies02-side view walk_05.png
+  artifactKey: Guid(a5451e0f9391f3148b463b1cf8c9cfff) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Resources/Sprites/Zombies/Zombies02/Side view/zombies02-side view walk_05.png using Guid(a5451e0f9391f3148b463b1cf8c9cfff) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '53087d1a4acec4f3a6a06cf294c36312') in 0.049272 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000029 seconds.
+  path: Assets/Resources/Sprites/Towers/Tower Bomber/Tower Bomber Lvl05 Idle/Bomber Tower-Tower Bomb Lv05_Idle_03.png
+  artifactKey: Guid(3dbd0d8d7499588459580e5e28d766b5) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Resources/Sprites/Towers/Tower Bomber/Tower Bomber Lvl05 Idle/Bomber Tower-Tower Bomb Lv05_Idle_03.png using Guid(3dbd0d8d7499588459580e5e28d766b5) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '0b33cae5c8d29c4f5ef0d6980c716f4d') in 0.050726 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000158 seconds.
+  path: Assets/Resources/Sprites/Zombies/Zombies05/Side view/zombies05-side view walk_12.png
+  artifactKey: Guid(c1daade9ed9512d4b9a59d4726360086) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Resources/Sprites/Zombies/Zombies05/Side view/zombies05-side view walk_12.png using Guid(c1daade9ed9512d4b9a59d4726360086) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '656d5c93281bbb070d11aadb4efdc45e') in 0.092290 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000046 seconds.
+  path: Assets/Resources/Sprites/Zombies/Zombies02/Front view/zombies02-Front view walk_01.png
+  artifactKey: Guid(ca013403178e7dc49a11c90fd1f6b26b) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Resources/Sprites/Zombies/Zombies02/Front view/zombies02-Front view walk_01.png using Guid(ca013403178e7dc49a11c90fd1f6b26b) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '446f9ffc3c3c230ed92ddcb132aa5560') in 0.046544 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000065 seconds.
+  path: Assets/Resources/Sprites/Towers/Tower Bomber/Tower Bomber Lvl05 Shoot/Bomber Tower-Tower Bomb Lv05_Shoot_14.png
+  artifactKey: Guid(715248c8e9dc0344d918c0e567b33708) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Resources/Sprites/Towers/Tower Bomber/Tower Bomber Lvl05 Shoot/Bomber Tower-Tower Bomb Lv05_Shoot_14.png using Guid(715248c8e9dc0344d918c0e567b33708) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '50e2419b513ac1fd707d1be2df5b9c46') in 0.032871 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000031 seconds.
+  path: Assets/Resources/Sprites/Towers/Tower Bomber/Tower Bomber Lvl03 Shoot/Bomber Tower-Tower Bomb Lv03_Shoot_18.png
+  artifactKey: Guid(ea7d405b3fd70e1428abe98c126d2f58) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Resources/Sprites/Towers/Tower Bomber/Tower Bomber Lvl03 Shoot/Bomber Tower-Tower Bomb Lv03_Shoot_18.png using Guid(ea7d405b3fd70e1428abe98c126d2f58) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '743281614ca99e729e1b0a288a5ef87d') in 0.044654 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000047 seconds.
+  path: Assets/Resources/Sprites/Towers/Tower Bomber/Tower Bomber Lvl05 Shoot/Bomber Tower-Tower Bomb Lv05_Shoot_16.png
+  artifactKey: Guid(d4b9c45dbb3ea3a4daf109b9d317b343) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Resources/Sprites/Towers/Tower Bomber/Tower Bomber Lvl05 Shoot/Bomber Tower-Tower Bomb Lv05_Shoot_16.png using Guid(d4b9c45dbb3ea3a4daf109b9d317b343) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'b8fc866e369a845358ff352062c726c7') in 0.032635 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000043 seconds.
+  path: Assets/Resources/Sprites/Towers/Tower Bomber/Tower Bomber Lvl03 Shoot/Bomber Tower-Tower Bomb Lv03_Shoot_11.png
+  artifactKey: Guid(523a337d1c3baa74fb0a045870aedb07) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Resources/Sprites/Towers/Tower Bomber/Tower Bomber Lvl03 Shoot/Bomber Tower-Tower Bomb Lv03_Shoot_11.png using Guid(523a337d1c3baa74fb0a045870aedb07) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'e1242b2826bc97dba1c69fdf1e62769d') in 0.029798 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000025 seconds.
+  path: Assets/Resources/Sprites/Zombies/Zombies05/Side view/zombies05-side view walk_02.png
+  artifactKey: Guid(b5e61db6a4212db4eb0eed11e1b9ca7e) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Resources/Sprites/Zombies/Zombies05/Side view/zombies05-side view walk_02.png using Guid(b5e61db6a4212db4eb0eed11e1b9ca7e) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '9d1ae6ae241f65f89aa73b1bf68214e4') in 0.038120 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000037 seconds.
+  path: Assets/Resources/Sprites/Towers/Tower Electric/Tower Electric Lv03/Electric Tower-Tower Electric Lv03_02.png
+  artifactKey: Guid(62be3b08f0449774384b69ddc0459858) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Resources/Sprites/Towers/Tower Electric/Tower Electric Lv03/Electric Tower-Tower Electric Lv03_02.png using Guid(62be3b08f0449774384b69ddc0459858) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '303940f62b062d7a20dc108d0c5beb56') in 0.030819 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000056 seconds.
+  path: Assets/Resources/Sprites/Towers/Tower Bomber/Tower Bomber Lvl05 Idle/Bomber Tower-Tower Bomb Lv05_Idle_09.png
+  artifactKey: Guid(f5c756712fd41dd42b56fd4c9735ff7c) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Resources/Sprites/Towers/Tower Bomber/Tower Bomber Lvl05 Idle/Bomber Tower-Tower Bomb Lv05_Idle_09.png using Guid(f5c756712fd41dd42b56fd4c9735ff7c) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '667309e20dd9ef8e3319b73cf0d0dbb1') in 0.046180 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000034 seconds.
+  path: Assets/Resources/Sprites/Zombies/Zombies02/Front view/zombies02-Front view walk_04.png
+  artifactKey: Guid(a115dfd2819ad6e42b5f36fbffdda1e2) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Resources/Sprites/Zombies/Zombies02/Front view/zombies02-Front view walk_04.png using Guid(a115dfd2819ad6e42b5f36fbffdda1e2) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '68e0759bebdc464b27ff8d85706a4882') in 0.028168 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000030 seconds.
+  path: Assets/Resources/Sprites/Towers/Tower Bomber/Tower Bomber Lvl05 Shoot/Bomber Tower-Tower Bomb Lv05_Shoot_04.png
+  artifactKey: Guid(12da67a7d660af141bf700d091b3836d) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Resources/Sprites/Towers/Tower Bomber/Tower Bomber Lvl05 Shoot/Bomber Tower-Tower Bomb Lv05_Shoot_04.png using Guid(12da67a7d660af141bf700d091b3836d) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '6a5e5a62c01e6a6440241b577e11af66') in 0.030562 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000025 seconds.
+  path: Assets/Resources/Sprites/Zombies/Zombies05/Back view/zombies05-Back view walk_11.png
+  artifactKey: Guid(5d044c9cf58d61542a62f7b6a2d2885f) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Resources/Sprites/Zombies/Zombies05/Back view/zombies05-Back view walk_11.png using Guid(5d044c9cf58d61542a62f7b6a2d2885f) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '0c41a8e1879e4d7526776bfacebe17b8') in 0.042559 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000029 seconds.
+  path: Assets/Resources/Sprites/Zombies/Zombies02/Side view/zombies02-side view walk_13.png
+  artifactKey: Guid(965dae59a53c7454192b5f27c1fbc2a6) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Resources/Sprites/Zombies/Zombies02/Side view/zombies02-side view walk_13.png using Guid(965dae59a53c7454192b5f27c1fbc2a6) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '6ffd15f1e40f59e55964601b21cea29b') in 0.040955 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000031 seconds.
+  path: Assets/Resources/Sprites/Zombies/Zombies06/Side view/zombies06-side view walk_19.png
+  artifactKey: Guid(03b26b7a2dc068d4bb5666c12cddf391) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Resources/Sprites/Zombies/Zombies06/Side view/zombies06-side view walk_19.png using Guid(03b26b7a2dc068d4bb5666c12cddf391) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '7e10bba4b1f863be90940de93f5bb9c3') in 0.047083 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000046 seconds.
+  path: Assets/Resources/Sprites/Zombies/Zombies07/Back view/zombies08-Back View_06.png
+  artifactKey: Guid(7336bb22eac3ba243948e103ea6601cd) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Resources/Sprites/Zombies/Zombies07/Back view/zombies08-Back View_06.png using Guid(7336bb22eac3ba243948e103ea6601cd) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'e0a6c82a0199ecc474ea67b91ed476d1') in 0.042013 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000033 seconds.
+  path: Assets/Resources/Sprites/Zombies/Zombies09/Back view/zombies09-Back View_00.png
+  artifactKey: Guid(e415d384e28fad74db47061fc39fcc40) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Resources/Sprites/Zombies/Zombies09/Back view/zombies09-Back View_00.png using Guid(e415d384e28fad74db47061fc39fcc40) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '1285ed7769b7d29e45712a9748a863d8') in 0.037939 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000036 seconds.
+  path: Assets/Resources/Sprites/Zombies/Zombies07/Side view/zombies08-Side View_13.png
+  artifactKey: Guid(b0f0ea333571aa14b8b5119e52ad047f) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Resources/Sprites/Zombies/Zombies07/Side view/zombies08-Side View_13.png using Guid(b0f0ea333571aa14b8b5119e52ad047f) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '05c88d51fffc013b60bfab135803fb71') in 0.032079 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000035 seconds.
+  path: Assets/Resources/Sprites/Towers/Tower Bomber/Tower Bomber Lvl04 Shoot/Bomber Tower-Tower Bomb Lv04_Shoot_10.png
+  artifactKey: Guid(b2e96a094c8c70847941890545586860) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Resources/Sprites/Towers/Tower Bomber/Tower Bomber Lvl04 Shoot/Bomber Tower-Tower Bomb Lv04_Shoot_10.png using Guid(b2e96a094c8c70847941890545586860) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'd0163f5c7a09b732102febab5b47f687') in 0.029187 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000037 seconds.
+  path: Assets/Resources/Sprites/Zombies/Zombies10/Back view/zombies10-Back View_10.png
+  artifactKey: Guid(228732814a3134d458511de058bd1f6b) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Resources/Sprites/Zombies/Zombies10/Back view/zombies10-Back View_10.png using Guid(228732814a3134d458511de058bd1f6b) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '6148e8d9705d0c95e554251a2f8df426') in 0.037376 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000041 seconds.
+  path: Assets/Resources/Sprites/Towers/Tower Electric/Tower Electric Lv03/Electric Tower-Tower Electric Lv03_03.png
+  artifactKey: Guid(c90fa6b3e3257324e8e8ab56d4f40546) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Resources/Sprites/Towers/Tower Electric/Tower Electric Lv03/Electric Tower-Tower Electric Lv03_03.png using Guid(c90fa6b3e3257324e8e8ab56d4f40546) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '16ed2a660291e9102782f3d00b89e5a3') in 0.033756 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000040 seconds.
+  path: Assets/Resources/Sprites/Zombies/Zombies06/Back view/zombies06-Back view walk_13.png
+  artifactKey: Guid(efa8c6e16c242ef498bc77167200df9c) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Resources/Sprites/Zombies/Zombies06/Back view/zombies06-Back view walk_13.png using Guid(efa8c6e16c242ef498bc77167200df9c) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '342aa5a399d1f643116a9b096b881260') in 0.043007 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000030 seconds.
+  path: Assets/Resources/Sprites/Zombies/Zombies06/Side view/zombies06-side view walk_12.png
+  artifactKey: Guid(6d460661f5b66f54597b177532fa5ed5) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Resources/Sprites/Zombies/Zombies06/Side view/zombies06-side view walk_12.png using Guid(6d460661f5b66f54597b177532fa5ed5) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'c1d6153ba33e73ec8af838ac6c4e8dc4') in 0.028948 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000032 seconds.
+  path: Assets/Resources/Sprites/Towers/Tower Bomber/Tower Bomber Lvl04 Idle/Bomber Tower-Tower Bomb Lv04_Idle_09.png
+  artifactKey: Guid(0f360c3909b49544885c41356493d21f) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Resources/Sprites/Towers/Tower Bomber/Tower Bomber Lvl04 Idle/Bomber Tower-Tower Bomb Lv04_Idle_09.png using Guid(0f360c3909b49544885c41356493d21f) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '6ebd245afa475b5a594df98716b676ab') in 0.042857 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000032 seconds.
+  path: Assets/Resources/Sprites/Zombies/Zombies02/Side view/zombies02-side view walk_15.png
+  artifactKey: Guid(559619fc22353b64daa39a591ce93b35) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Resources/Sprites/Zombies/Zombies02/Side view/zombies02-side view walk_15.png using Guid(559619fc22353b64daa39a591ce93b35) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '0be587747556b32283eb12149b84495e') in 0.033519 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000025 seconds.
+  path: Assets/Resources/Sprites/Towers/Tower Bomber/Tower Bomber Lvl03 Shoot/Bomber Tower-Tower Bomb Lv03_Shoot_14.png
+  artifactKey: Guid(2eb4bd00ada057b42ac8f8e04c64c9e2) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Resources/Sprites/Towers/Tower Bomber/Tower Bomber Lvl03 Shoot/Bomber Tower-Tower Bomb Lv03_Shoot_14.png using Guid(2eb4bd00ada057b42ac8f8e04c64c9e2) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '1b89ed63c0c3a73f60f818dd5e3dcb9b') in 0.030398 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000058 seconds.
+  path: Assets/Resources/Sprites/Zombies/Zombies09/Back view/zombies09-Back View_11.png
+  artifactKey: Guid(ff3a3e04c9f54f64480f26fd003bc570) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Resources/Sprites/Zombies/Zombies09/Back view/zombies09-Back View_11.png using Guid(ff3a3e04c9f54f64480f26fd003bc570) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '91cb7b47b15eaa6a44ec3237411860e9') in 0.042845 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000042 seconds.
+  path: Assets/Resources/Sprites/Towers/Tower Bomber/Tower Bomber Lvl05 Idle/Bomber Tower-Tower Bomb Lv05_Idle_02.png
+  artifactKey: Guid(aa47404ef5a77f04aa1ee656634307fc) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Resources/Sprites/Towers/Tower Bomber/Tower Bomber Lvl05 Idle/Bomber Tower-Tower Bomb Lv05_Idle_02.png using Guid(aa47404ef5a77f04aa1ee656634307fc) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '2ffea2106c961b7cf1aca5f0778da64c') in 0.031182 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000025 seconds.
+  path: Assets/Resources/Sprites/Towers/Tower Bomber/Tower Bomber Lvl05 Shoot/Bomber Tower-Tower Bomb Lv05_Shoot_13.png
+  artifactKey: Guid(b81c7592fcc143943a6963854edee6c5) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Resources/Sprites/Towers/Tower Bomber/Tower Bomber Lvl05 Shoot/Bomber Tower-Tower Bomb Lv05_Shoot_13.png using Guid(b81c7592fcc143943a6963854edee6c5) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'b64bf580358fb1bdf81db1aadfd1eb03') in 0.029855 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000033 seconds.
+  path: Assets/Resources/Sprites/Towers/Tower Electric/Tower Electric Lv04/Electric Tower-Tower Electric Lv04_03.png
+  artifactKey: Guid(9e3f5b76618f79948a6e152e24f0e17c) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Resources/Sprites/Towers/Tower Electric/Tower Electric Lv04/Electric Tower-Tower Electric Lv04_03.png using Guid(9e3f5b76618f79948a6e152e24f0e17c) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'd091eebf87934bed91341de4902a513c') in 0.041585 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000048 seconds.
+  path: Assets/Resources/Sprites/Zombies/Zombies09/Back view/zombies09-Back View_08.png
+  artifactKey: Guid(04e8fe7926b3c5a4f9a8840acae50112) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Resources/Sprites/Zombies/Zombies09/Back view/zombies09-Back View_08.png using Guid(04e8fe7926b3c5a4f9a8840acae50112) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'b3a364f85649f0adb64a02ade4137bea') in 0.068284 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000056 seconds.
+  path: Assets/Resources/Sprites/Zombies/Zombies02/Side view/zombies02-side view walk_12.png
+  artifactKey: Guid(859940b36fde7b846af023727c076d68) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Resources/Sprites/Zombies/Zombies02/Side view/zombies02-side view walk_12.png using Guid(859940b36fde7b846af023727c076d68) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '6b956ece38e9d09b46e815b11dc9315d') in 0.046593 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000065 seconds.
+  path: Assets/Resources/Sprites/Towers/Tower Electric/Tower Electric Lv03/Electric Tower-Tower Electric Lv03_04.png
+  artifactKey: Guid(14f2cd208b56aa844a14ec38bdab74ef) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Resources/Sprites/Towers/Tower Electric/Tower Electric Lv03/Electric Tower-Tower Electric Lv03_04.png using Guid(14f2cd208b56aa844a14ec38bdab74ef) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '97a66adcb3e49793ce0bedcbf3295b15') in 0.047608 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000024 seconds.
+  path: Assets/Resources/Sprites/Zombies/Zombies05/Back view/zombies05-Back view walk_04.png
+  artifactKey: Guid(94f284355f2ba1f4988022094931ebea) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Resources/Sprites/Zombies/Zombies05/Back view/zombies05-Back view walk_04.png using Guid(94f284355f2ba1f4988022094931ebea) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '75beb90cb05679a68594da3e051e8ef2') in 0.024931 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.165202 seconds.
+  path: Assets/Resources/Sprites/Zombies/Zombies08/Side view/zombies08-Side View_07.png
+  artifactKey: Guid(b1e00d36e41078f49a6a17a025568f2a) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Resources/Sprites/Zombies/Zombies08/Side view/zombies08-Side View_07.png using Guid(b1e00d36e41078f49a6a17a025568f2a) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '05b4f9515a5b0f38f1a752cb72a2eeea') in 0.035244 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000025 seconds.
+  path: Assets/Resources/Sprites/Zombies/Zombies09/Side view/zombies09-Side View_05.png
+  artifactKey: Guid(52d033163c399034cb8473235636c231) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Resources/Sprites/Zombies/Zombies09/Side view/zombies09-Side View_05.png using Guid(52d033163c399034cb8473235636c231) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '3034d542e03448302eeb5e6d9a602bf0') in 0.022686 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000034 seconds.
+  path: Assets/Resources/Sprites/Zombies/Zombies09/Side view/zombies09-Side View_09.png
+  artifactKey: Guid(e5ead6d0487049d408a3e0ec0af0ad5b) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Resources/Sprites/Zombies/Zombies09/Side view/zombies09-Side View_09.png using Guid(e5ead6d0487049d408a3e0ec0af0ad5b) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'b0e234747ecafab1a5697370e275c738') in 0.032858 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000036 seconds.
+  path: Assets/Resources/Sprites/Zombies/Zombies09/Back view/zombies09-Back View_02.png
+  artifactKey: Guid(8e26ed70e1fb80340be077993c8f05e7) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Resources/Sprites/Zombies/Zombies09/Back view/zombies09-Back View_02.png using Guid(8e26ed70e1fb80340be077993c8f05e7) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'ec2390441924b319c2d660c2b40b7064') in 0.039488 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000033 seconds.
+  path: Assets/Resources/Sprites/Zombies/Zombies10/Side view/zombies10-Side View_09.png
+  artifactKey: Guid(26f0188ad2a1cbf429088a8fc6e18936) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Resources/Sprites/Zombies/Zombies10/Side view/zombies10-Side View_09.png using Guid(26f0188ad2a1cbf429088a8fc6e18936) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '8cccbe086714b28c8ae6d878a070ef80') in 0.031904 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000036 seconds.
+  path: Assets/Resources/Sprites/Zombies/Zombies08/Side view/zombies08-Side View_14.png
+  artifactKey: Guid(017952a11954e634aa17e2761bbcae14) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Resources/Sprites/Zombies/Zombies08/Side view/zombies08-Side View_14.png using Guid(017952a11954e634aa17e2761bbcae14) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '02e93c23e6b8f77a94f81a847e23562c') in 0.036783 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000024 seconds.
+  path: Assets/Resources/Sprites/Zombies/Zombies10/Side view/zombies10-Side View_05.png
+  artifactKey: Guid(08333d1c679d84c428ee5550df0b17af) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Resources/Sprites/Zombies/Zombies10/Side view/zombies10-Side View_05.png using Guid(08333d1c679d84c428ee5550df0b17af) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'd85caf760fa4809ebe9a5f69d0e009e0') in 0.026407 seconds 
+========================================================================
+Received Prepare
+Registering precompiled user dll's ...
+Registered in 0.253729 seconds.
+Begin MonoManager ReloadAssembly
+Symbol file LoadedFromMemory doesn't match image B:\Learn\Unity\AITowerGame\Library\PackageCache\com.unity.visualscripting@1.7.8\Editor\VisualScripting.Core\Dependencies\YamlDotNet\Unity.VisualScripting.YamlDotNet.dll
+Symbol file LoadedFromMemory doesn't match image B:\Learn\Unity\AITowerGame\Library\PackageCache\com.unity.visualscripting@1.7.8\Editor\VisualScripting.Core\Dependencies\DotNetZip\Unity.VisualScripting.IonicZip.dll
+Native extension for WindowsStandalone target not found
+Native extension for Android target not found
+Native extension for WebGL target not found
+Refreshing native plugins compatible for Editor in 0.85 ms, found 4 plugins.
+Preloading 0 native plugins for Editor in 0.00 ms.
+Mono: successfully reloaded assembly
+- Completed reload, in  3.918 seconds
+Domain Reload Profiling:
+	ReloadAssembly (3919ms)
+		BeginReloadAssembly (636ms)
+			ExecutionOrderSort (0ms)
+			DisableScriptedObjects (6ms)
+			BackupInstance (0ms)
+			ReleaseScriptingObjects (0ms)
+			CreateAndSetChildDomain (45ms)
+		EndReloadAssembly (2294ms)
+			LoadAssemblies (708ms)
+			RebuildTransferFunctionScriptingTraits (0ms)
+			SetupTypeCache (282ms)
+			ReleaseScriptCaches (2ms)
+			RebuildScriptCaches (45ms)
+			SetupLoadedEditorAssemblies (946ms)
+				LogAssemblyErrors (0ms)
+				InitializePlatformSupportModulesInManaged (52ms)
+				SetLoadedEditorAssemblies (1ms)
+				RefreshPlugins (1ms)
+				BeforeProcessingInitializeOnLoad (368ms)
+				ProcessInitializeOnLoadAttributes (250ms)
+				ProcessInitializeOnLoadMethodAttributes (49ms)
+				AfterProcessingInitializeOnLoad (225ms)
+				EditorAssembliesLoaded (0ms)
+			ExecutionOrderSort2 (0ms)
+			AwakeInstancesAfterBackupRestoration (11ms)
+Platform modules already initialized, skipping
+Refreshing native plugins compatible for Editor in 29.42 ms, found 4 plugins.
+Preloading 0 native plugins for Editor in 0.00 ms.
+Unloading 4074 Unused Serialized files (Serialized files now loaded: 0)
+Unloading 25 unused Assets / (24.7 KB). Loaded Objects now: 4565.
+Memory consumption went from 156.0 MB to 156.0 MB.
+Total: 2.808800 ms (FindLiveObjects: 0.231700 ms CreateObjectMapping: 0.100900 ms MarkObjects: 2.446500 ms  DeleteObjects: 0.027800 ms)
+
+AssetImportParameters requested are different than current active one (requested -> active):
+  custom:video-decoder-ogg-theora: a1e56fd34408186e4bbccfd4996cb3dc -> 
+  custom:container-muxer-webm: aa71ff27fc2769a1b78a27578f13a17b -> 
+  custom:container-demuxer-webm: 4f35f7cbe854078d1ac9338744f61a02 -> 
+  custom:video-encoder-webm-vp8: eb34c28f22e8b96e1ab97ce403110664 -> 
+  custom:audio-encoder-webm-vorbis: bf7c407c2cedff20999df2af8eb42d56 -> 
+  custom:framework-win-MediaFoundation: 216162199b28c13a410421893ffa2e32 -> 
+  custom:container-demuxer-ogg: 62fdf1f143b41e24485cea50d1cbac27 -> 
+  custom:video-decoder-webm-vp8: 9c59270c3fd7afecdb556c50c9e8de78 -> 
+  custom:audio-decoder-ogg-vorbis: bf7c407c2cedff20999df2af8eb42d56 -> 
+Editor requested this worker to shutdown with reason: Scaling down because of idle timeout
+AssetImportWorker is now disconnected from the server
+Process exiting
+Exiting without the bug reporter. Application will terminate with return code 0
