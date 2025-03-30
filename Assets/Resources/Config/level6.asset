@@ -13,135 +13,187 @@ MonoBehaviour:
   m_Name: level6
   m_EditorClassIdentifier: 
   levelID: 6
-  levelName: "\u5173\u53616"
-  initialCurrency: 280
+  levelName: "关卡6"
+  initialCurrency: 450
   initialHealth: 22
   waves:
   - startDelay: 1
     enemies:
     - enemyType: 1
-      count: 15
+      count: 10
       spawnInterval: 0.8
       pathIndex: 0
     - enemyType: 2
-      count: 15
+      count: 10
       spawnInterval: 0.8
       pathIndex: 1
+    - enemyType: 0
+      count: 10
+      spawnInterval: 0.8
+      pathIndex: 2
   - startDelay: 2
     enemies:
     - enemyType: 3
-      count: 15
+      count: 10
       spawnInterval: 0.8
       pathIndex: 0
     - enemyType: 4
-      count: 15
+      count: 10
       spawnInterval: 0.5
       pathIndex: 1
-  - startDelay: 2
-    enemies:
-    - enemyType: 0
-      count: 30
-      spawnInterval: 0.3
-      pathIndex: 0
-  - startDelay: 2
-    enemies:
-    - enemyType: 1
-      count: 10
-      spawnInterval: 0.8
-      pathIndex: 0
     - enemyType: 3
       count: 10
       spawnInterval: 0.8
-      pathIndex: 0
-    - enemyType: 2
-      count: 10
-      spawnInterval: 0.8
-      pathIndex: 1
-  - startDelay: 3
+      pathIndex: 2
+  - startDelay: 2
     enemies:
-    - enemyType: 4
-      count: 25
-      spawnInterval: 0.4
-      pathIndex: 0
     - enemyType: 0
       count: 15
+      spawnInterval: 0.4
+      pathIndex: 0
+    - enemyType: 0
+      count: 10
+      spawnInterval: 0.4
+      pathIndex: 1
+    - enemyType: 0
+      count: 5
+      spawnInterval: 0.4
+      pathIndex: 2
+    - enemyType: 6
+      count: 12
+      spawnInterval: 0.6
+      pathIndex: 0
+  - startDelay: 2
+    enemies:
+    - enemyType: 1
+      count: 8
+      spawnInterval: 0.8
+      pathIndex: 0
+    - enemyType: 3
+      count: 8
+      spawnInterval: 0.8
+      pathIndex: 1
+    - enemyType: 2
+      count: 8
+      spawnInterval: 0.8
+      pathIndex: 2
+  - startDelay: 3
+    enemies:
+    - enemyType: 4
+      count: 12
+      spawnInterval: 0.4
+      pathIndex: 0
+    - enemyType: 0
+      count: 9
       spawnInterval: 0.6
       pathIndex: 1
+    - enemyType: 4
+      count: 9
+      spawnInterval: 0.4
+      pathIndex: 2
   - startDelay: 3
     enemies:
     - enemyType: 3
-      count: 20
+      count: 12
       spawnInterval: 0.6
       pathIndex: 0
     - enemyType: 1
-      count: 10
+      count: 8
       spawnInterval: 0.8
       pathIndex: 1
     - enemyType: 2
       count: 10
       spawnInterval: 0.8
-      pathIndex: 0
+      pathIndex: 2
+    - enemyType: 7
+      count: 8
+      spawnInterval: 0.7
+      pathIndex: 1
   - startDelay: 3
     enemies:
     - enemyType: 0
-      count: 20
+      count: 10
       spawnInterval: 0.4
       pathIndex: 0
     - enemyType: 1
-      count: 10
+      count: 8
       spawnInterval: 0.6
       pathIndex: 1
     - enemyType: 2
-      count: 10
+      count: 8
       spawnInterval: 0.6
-      pathIndex: 0
+      pathIndex: 2
     - enemyType: 3
-      count: 10
+      count: 6
       spawnInterval: 0.8
+      pathIndex: 0
+    - enemyType: 4
+      count: 8
+      spawnInterval: 0.3
       pathIndex: 1
   - startDelay: 3
     enemies:
     - enemyType: 4
-      count: 30
+      count: 15
       spawnInterval: 0.3
+      pathIndex: 0
+    - enemyType: 4
+      count: 10
+      spawnInterval: 0.3
+      pathIndex: 1
+    - enemyType: 4
+      count: 5
+      spawnInterval: 0.3
+      pathIndex: 2
+    - enemyType: 8
+      count: 6
+      spawnInterval: 0.8
       pathIndex: 0
   - startDelay: 4
     enemies:
     - enemyType: 1
-      count: 10
+      count: 8
       spawnInterval: 0.6
       pathIndex: 0
     - enemyType: 2
-      count: 10
+      count: 8
       spawnInterval: 0.6
       pathIndex: 1
     - enemyType: 3
-      count: 10
+      count: 8
       spawnInterval: 0.6
-      pathIndex: 0
+      pathIndex: 2
     - enemyType: 4
-      count: 10
+      count: 6
       spawnInterval: 0.4
-      pathIndex: 1
+      pathIndex: 0
   - startDelay: 5
     enemies:
     - enemyType: 0
-      count: 20
+      count: 10
       spawnInterval: 0.3
       pathIndex: 0
     - enemyType: 1
-      count: 15
-      spawnInterval: 0.4
-      pathIndex: 0
-    - enemyType: 2
-      count: 15
+      count: 8
       spawnInterval: 0.4
       pathIndex: 1
+    - enemyType: 2
+      count: 8
+      spawnInterval: 0.4
+      pathIndex: 2
     - enemyType: 3
-      count: 15
+      count: 8
       spawnInterval: 0.5
       pathIndex: 0
     - enemyType: 4
-      count: 15
+      count: 6
       spawnInterval: 0.3
+      pathIndex: 1
+    - enemyType: 0
+      count: 10
+      spawnInterval: 0.3
+      pathIndex: 2
+    - enemyType: 9
+      count: 12
+      spawnInterval: 0.2
       pathIndex: 1

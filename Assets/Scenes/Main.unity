@@ -649,21 +649,21 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   availableTowers:
-  - towerType: 1
-    towerPrefab: {fileID: 1095217563077474987, guid: 12a2f0c8b628fc748ac97e2c6e0b48fc, type: 3}
-    cost: 100
-    icon: {fileID: 0}
   - towerType: 0
     towerPrefab: {fileID: 9112594745870811201, guid: 3ac45b15135fc5f4794535ec19d92cc6, type: 3}
-    cost: 120
+    cost: 100
+    icon: {fileID: 0}
+  - towerType: 1
+    towerPrefab: {fileID: 1095217563077474987, guid: 12a2f0c8b628fc748ac97e2c6e0b48fc, type: 3}
+    cost: 150
     icon: {fileID: 0}
   - towerType: 2
     towerPrefab: {fileID: 5728191371730957102, guid: 93582de20fed5994e85dc0994e6673f6, type: 3}
-    cost: 150
+    cost: 130
     icon: {fileID: 0}
   - towerType: 3
     towerPrefab: {fileID: 7134887491190393869, guid: ec1696e73a174e944a99777cf2e43fc9, type: 3}
-    cost: 180
+    cost: 130
     icon: {fileID: 0}
 --- !u!4 &2059989363
 Transform:

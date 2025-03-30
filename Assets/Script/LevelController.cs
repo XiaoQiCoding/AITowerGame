@@ -70,30 +70,23 @@ public class LevelController : MonoBehaviour
             // 是否是最后一波
             bool isLastWave = (waveIndex == totalWaves - 1);
 
-            // 等待当前波次所有敌人被消灭或到达终点
-            // 最后一波需要等待所有敌人消灭后才结束关卡
             if (isLastWave)
             {
                 Debug.Log("等待最后一波敌人清理...");
-                while (remainingEnemies > 0 && !shouldStopSpawning)
-                {
-                    yield return null;
-                }
+                // 等待最后一波所有敌人被消灭或到达终点
+                yield return StartCoroutine(WaitForAllEnemiesClear());
 
-                // 最后一波结束，且玩家没有失败
-                if (GameManager.Instance.CurrentHealth > 0 && !shouldStopSpawning)
+                // 检查是否所有敌人都被消灭，且玩家没有失败
+                if (remainingEnemies <= 0 && GameManager.Instance.CurrentHealth > 0 && !shouldStopSpawning)
                 {
-                    Debug.Log("所有敌人已清除，触发胜利条件");
+                    Debug.Log($"所有敌人已清除(剩余: {remainingEnemies})，触发胜利条件");
                     levelCompleted = true;
                     GameManager.Instance.GameOver(true);
                 }
-            }
-            else
-            {
-                // 非最后一波，等待当前波次结束再继续
-                while (remainingEnemies > 0 && !shouldStopSpawning)
+                else
                 {
-                    yield return null;
+                    Debug.Log(
+                        $"关卡未正常结束: 剩余敌人={remainingEnemies}, 生命值={GameManager.Instance.CurrentHealth}, 停止标记={shouldStopSpawning}");
                 }
             }
 
@@ -104,6 +97,42 @@ public class LevelController : MonoBehaviour
                 yield break;
             }
         }
+    }
+
+    // 等待所有敌人清理完毕
+    private IEnumerator WaitForAllEnemiesClear()
+    {
+        // 记录开始等待时的敌人数量
+        int initialCount = remainingEnemies;
+        Debug.Log($"开始等待敌人清理，当前敌人数量: {initialCount}");
+
+        float startTime = Time.time;
+        float timeLimitSeconds = 60f; // 设置一个最长等待时间，避免无限等待
+
+        while (remainingEnemies > 0 && !shouldStopSpawning)
+        {
+            // 每秒打印一次当前敌人数量，便于调试
+            if (Mathf.FloorToInt(Time.time - startTime) % 5 == 0)
+            {
+                Debug.Log($"等待中...剩余敌人: {remainingEnemies}");
+            }
+
+            // 如果等待时间过长，打印警告并退出
+            if (Time.time - startTime > timeLimitSeconds)
+            {
+                Debug.LogWarning($"等待敌人清理超时! 初始数量: {initialCount}, 当前剩余: {remainingEnemies}");
+                break;
+            }
+
+            yield return null;
+        }
+
+        Debug.Log($"敌人清理完毕或被中断，剩余: {remainingEnemies}, 用时: {Time.time - startTime:F1}秒");
+    }
+
+    private void OnDestroy()
+    {
+        Instance = null;
     }
 
 // 添加停止生成的公共方法

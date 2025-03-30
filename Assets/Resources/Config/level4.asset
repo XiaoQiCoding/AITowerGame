@@ -14,7 +14,7 @@ MonoBehaviour:
   m_EditorClassIdentifier: 
   levelID: 4
   levelName: "\u5173\u53614"
-  initialCurrency: 240
+  initialCurrency: 350
   initialHealth: 18
   waves:
   - startDelay: 1
@@ -29,6 +29,10 @@ MonoBehaviour:
       count: 10
       spawnInterval: 0.8
       pathIndex: 0
+    - enemyType: 6
+      count: 5
+      spawnInterval: 1.2
+      pathIndex: 1
   - startDelay: 3
     enemies:
     - enemyType: 1
@@ -55,6 +59,10 @@ MonoBehaviour:
       count: 8
       spawnInterval: 1.5
       pathIndex: 0
+    - enemyType: 6
+      count: 6
+      spawnInterval: 1.2
+      pathIndex: 1
   - startDelay: 3
     enemies:
     - enemyType: 0
@@ -81,6 +89,10 @@ MonoBehaviour:
       count: 6
       spawnInterval: 1.2
       pathIndex: 1
+    - enemyType: 7
+      count: 4
+      spawnInterval: 1.5
+      pathIndex: 0
   - startDelay: 5
     enemies:
     - enemyType: 0
@@ -95,3 +107,7 @@ MonoBehaviour:
       count: 8
       spawnInterval: 0.8
       pathIndex: 1
+    - enemyType: 9
+      count: 5
+      spawnInterval: 0.6
+      pathIndex: 0
