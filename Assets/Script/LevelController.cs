@@ -107,7 +107,7 @@ public class LevelController : MonoBehaviour
         Debug.Log($"开始等待敌人清理，当前敌人数量: {initialCount}");
 
         float startTime = Time.time;
-        float timeLimitSeconds = 60f; // 设置一个最长等待时间，避免无限等待
+        float timeLimitSeconds = 600f; // 设置一个最长等待时间，避免无限等待
 
         while (remainingEnemies > 0 && !shouldStopSpawning)
         {

@@ -112,7 +112,8 @@ public abstract class Tower : MonoBehaviour
                     continue;
                 }
 
-                float distanceToEnemy = Vector2.Distance(transform.position, collider.transform.position);
+                Transform endPoint = enemy.pathPoints[^1];
+                float distanceToEnemy = Vector2.Distance(endPoint.position, collider.transform.position);
                 if (distanceToEnemy < shortestDistance)
                 {
                     shortestDistance = distanceToEnemy;

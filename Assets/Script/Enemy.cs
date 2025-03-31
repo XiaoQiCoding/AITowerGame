@@ -37,7 +37,7 @@ public class Enemy : MonoBehaviour
     [HideInInspector] public bool canFly = false; // 是否为飞行单位
 
     // 组件引用
-    private List<Transform> pathPoints;
+    public List<Transform> pathPoints;
     private int currentPathIndex = 0;
     private Animator animator;
     private SpriteRenderer spriteRenderer;

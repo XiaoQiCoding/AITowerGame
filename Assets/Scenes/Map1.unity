@@ -5325,7 +5325,7 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: e612d2f9fe404faeb6acbff62b095275, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  levelConfig: {fileID: 11400000, guid: 1da79f1f45db6824e8f8c0ee814a6f7f, type: 2}
+  levelConfig: {fileID: 11400000, guid: 3fba1dc007a742a45a2f4da059b41c32, type: 2}
   spawnPoints:
   - {fileID: 1860874019}
   paths:
