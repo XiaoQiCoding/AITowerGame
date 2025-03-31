@@ -14,7 +14,7 @@ MonoBehaviour:
   m_EditorClassIdentifier: 
   levelID: 7
   levelName: "最终关卡"
-  initialCurrency: 500
+  initialCurrency: 700
   initialHealth: 25
   waves:
   - startDelay: 1

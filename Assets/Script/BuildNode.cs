@@ -5,8 +5,7 @@ using UnityEngine;
 /// </summary>
 public class BuildNode : MonoBehaviour
 {
-    [Header("节点设置")]
-    public bool isOccupied = false;  // 该位置是否已经被占用
+    [Header("节点设置")] public bool isOccupied = false; // 该位置是否已经被占用
     // public GameObject currentTower;  // 当前建造的塔
 
     private SpriteRenderer spriteRenderer;
@@ -32,6 +31,9 @@ public class BuildNode : MonoBehaviour
 
     private void OnMouseDown()
     {
+        if (UIManager.Instance.GetPanel<BuildPanel>().gameObject.activeInHierarchy)
+            return;
+
         // 如果节点未被占用，显示建造面板
         if (!isOccupied)
         {
@@ -82,17 +84,17 @@ public class BuildNode : MonoBehaviour
             //         break;
             //     }
             // }
-            
+
             // 可以隐藏节点的视觉效果
             if (spriteRenderer != null)
             {
                 spriteRenderer.enabled = false;
             }
-            
+
             Debug.Log($"在节点 {gameObject.name} 成功建造了 {towerType} 塔");
             return true;
         }
-        
+
         return false;
     }
 
